@@ -34,12 +34,12 @@ class BASICData:
         self.__datastmts = {}
 
         # Data pointer
-        self.__next_data = 0
+        self.__next_data = 0000000
 
 
     def delete(self):
         self.__datastmts.clear()
-        self.__next_data = 0
+        self.__next_data = 0000000
 
     def delData(self,line_number):
         if self.__datastmts.get(line_number) != None:
