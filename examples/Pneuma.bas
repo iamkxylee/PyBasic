@@ -30,10 +30,10 @@
 709 IF WPL = PL THEN GOSUB 11000 : REM fight wraith-hound 
 710 INPUT "What now? " ; I$ 
 715 PRINT 
-716 MOVE = 1 
-720 IF LEFT$ ( LOWER$ ( I$ ) , 4 ) = "get " THEN MOVE = 0 : GOSUB 1400 
-730 IF LEFT$ ( LOWER$ ( I$ ) , 5 ) = "take " THEN MOVE = 0 : GOSUB 1700 
-740 IF LEFT$ ( LOWER$ ( I$ ) , 5 ) = "drop " THEN MOVE = 0 : GOSUB 2000 
+716 MOVE = 7
+720 IF LEFT$ ( LOWER$ ( I$ ) , 6 ) = "get " THEN MOVE = 0 : GOSUB 1400 
+730 IF LEFT$ ( LOWER$ ( I$ ) , 7 ) = "take " THEN MOVE = 0 : GOSUB 1700 
+740 IF LEFT$ ( LOWER$ ( I$ ) , 7 ) = "drop " THEN MOVE = 0 : GOSUB 2000 
 750 IF LEFT$ ( LOWER$ ( I$ ) , 8 ) = "examine " THEN MOVE = 0 : GOSUB 2300 
 760 IF LEFT$ ( LOWER$ ( I$ ) , 4 ) = "look" THEN MOVE = 0 : GOSUB 4010 
 765 IF LEFT$ ( LOWER$ ( I$ ) , 4 ) = "help" THEN MOVE = 0 : GOSUB 4130
